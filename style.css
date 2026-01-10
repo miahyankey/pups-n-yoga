@@ -130,3 +130,20 @@ p {
     padding: 10px;
   }
 }
+.site-footer {
+  margin-top: 80px;
+  padding: 30px 20px;
+  background-color: #3d405b;
+  color: #f4f1de;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-note {
+  font-style: italic;
+  opacity: 0.9;
+}
