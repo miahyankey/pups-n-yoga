@@ -167,3 +167,10 @@ p {
   display: flex;
   gap: 20px;
 }
+/* FORCE remove bullets from navigation on all devices */
+nav ul,
+nav li {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
