@@ -106,3 +106,8 @@ p {
 .contact-button:hover {
   background-color: #1ebe5d;
 }
+.nav-links a.active {
+  color: #e07a5f;
+  border-bottom: 2px solid #e07a5f;
+  padding-bottom: 4px;
+}
