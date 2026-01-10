@@ -82,3 +82,27 @@ p {
   font-weight: bold;
   color: #e07a5f;
 }
+.contact-box {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  background-color: #1ebe5d;
+}
