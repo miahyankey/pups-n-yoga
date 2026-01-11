@@ -1,12 +1,14 @@
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background-color: #fef6f0;
-  color: #333;
+  background-color: #F3D9BF;
+  color: #333333;
   margin: 0;
   padding: 20px;
 }
+
 h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
+  color: #3D405B;
 }
 
 h1 {
@@ -57,6 +59,12 @@ p {
   color: #e07a5f;
 }
 
+.nav-links a.active {
+  color: #E06C44;
+  border-bottom: 2px solid #E06C44;
+}
+
+
 .content {
   margin-top: 40px;
   text-align: center;
@@ -68,17 +76,14 @@ p {
   margin-top: 40px;
 }
 
-.puppy-card {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+.puppy-card,
+.contact-box {
+  background-color: #FFFFFF;
 }
 
-.puppy-card img {
-  width: 100%;
-  border-radius: 10px;
+.site-footer {
+  background-color: #3D405B;
+  color: #F4F1DE;
 }
 
 .price {
@@ -96,19 +101,14 @@ p {
 }
 
 .contact-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 20px;
-  background-color: #25D366;
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
-  font-weight: bold;
+  background-color: #E06C44;
+  color: #FFFFFF;
 }
 
 .contact-button:hover {
-  background-color: #1ebe5d;
+  background-color: #cc5f3c;
 }
+
 .nav-links a.active {
   color: #e07a5f;
   border-bottom: 2px solid #e07a5f;
