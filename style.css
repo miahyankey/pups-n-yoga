@@ -101,8 +101,15 @@ p {
 }
 
 .contact-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 26px;
   background-color: #E06C44;
   color: #FFFFFF;
+  text-decoration: none;   /* removes underline */
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }
 
 .contact-button:hover {
