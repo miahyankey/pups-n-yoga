@@ -30,12 +30,13 @@ p {
   font-size: 18px;
 }
 .navbar {
+  background-color: #3f455f; /* slate */
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #3d405b;
-  padding: 15px 30px;
+  justify-content: space-between;
+  padding: 20px 40px; /* 👈 THIS is the key */
 }
+
 
 .logo {
   color: #f4f1de;
@@ -155,6 +156,9 @@ p {
   opacity: 0.9;
 }
 @media (max-width: 768px) {
+    .class-card {
+    padding: 22px;
+  }
     .logo img {
   max-height: 32px;
 }
@@ -210,5 +214,39 @@ nav li {
   object-fit: contain;
   display: block;
 }
+.classes {
+  padding: 80px 20px;
+  margin-top: 40px; /* 👈 THIS creates separation */
+}
 
 
+.classes h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.class-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.class-card h2 {
+  margin-bottom: 5px;
+}
+
+.duration {
+  font-weight: 600;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.navbar {
+  min-height: 80px;
+}
