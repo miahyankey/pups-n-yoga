@@ -250,3 +250,31 @@ body {
 .navbar {
   min-height: 80px;
 }
+.booking-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f3d9bf;
+}
+
+.booking-section h2 {
+  margin-bottom: 15px;
+}
+
+.booking-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  opacity: 0.9;
+}
+
+.booking-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact-button.secondary {
+  background-color: transparent;
+  color: #e06c44;
+  border: 2px solid #e06c44;
+}
